@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Root>
-  <DeploymentSet allowEmptyValues="false" assetCompositeName="APIGatewayAssets" deploymentSetName="lpdpBRI_private_qa_deploymentset" serverAliasName="repo_lpdpBRI_private_qa" targetServerName="private_qa_group" targetServerType="APIGateway">
+  <DeploymentSet allowEmptyValues="false" assetCompositeName="APIGatewayAssets" deploymentSetName="lpdpBRI_private_qa_deploymentset" serverAliasName="repo_lpdpBRI_private_qa" targetServerName="dev_server" targetServerType="APIGateway">
     <Component name="Alias.065edc58-eeb3-41c6-9665-8b194eb1a099" type="Alias">
       <Property propertyName="value for Simple alias api-esb-channel-id" propertyValue="APIGW"/>
     </Component>
