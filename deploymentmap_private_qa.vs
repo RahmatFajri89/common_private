@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><Root>
-  <DeploymentSet allowEmptyValues="false" assetCompositeName="APIGatewayAssets" deploymentSetName="lpdpBRI_deploymentset" serverAliasName="lpdpBRI" targetGroup alias="private_qa_group" type="APIGateway">
+  <DeploymentSet allowEmptyValues="false" assetCompositeName="APIGatewayAssets" deploymentSetName="lpdpBRI_private_qa_deploymentset" serverAliasName="repo_lpdpBRI_private_qa" targetServerName="dev_server" targetServerType="APIGateway">
     <Component name="Alias.065edc58-eeb3-41c6-9665-8b194eb1a099" type="Alias">
       <Property propertyName="value for Simple alias api-esb-channel-id" propertyValue="APIGW"/>
     </Component>
     <Component name="Alias.56ae7631-c4e2-4cdb-a047-8494314b851e" type="Alias">
-      <Property propertyName="Endpoint URI for Endpoint alias api-close-gateway-url" propertyValue="http://api.close.qa.bri.co.id:5557"/>
+      <Property propertyName="Endpoint URI for Endpoint alias api-close-gateway-url" propertyValue="http://api.close.dev.bri.co.id:5557"/>
       <Property propertyName="Optimization technique for Endpoint alias api-close-gateway-url" propertyValue="None"/>
       <Property propertyName="Connection timeout for Endpoint alias api-close-gateway-url" propertyValue="32"/>
       <Property propertyName="Read timeout for Endpoint alias api-close-gateway-url" propertyValue="32"/>
@@ -16,9 +16,6 @@
     </Component>
     <Component name="Alias.d843d000-80ce-422a-91db-1b1299fc2e90" type="Alias">
       <Property propertyName="value for Simple alias api-esb-service-id" propertyValue="PO01"/>
-    </Component>
-	<Component name="Alias.065edc58-eeb3-41c6-9665-8b194eb1a080" type="Alias">
-      <Property propertyName="value for Simple alias api-esb-channel-id" propertyValue="rahmat"/>
     </Component>
   </DeploymentSet>
 </Root>
