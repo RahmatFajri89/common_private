@@ -17,8 +17,5 @@
     <Component name="Alias.d843d000-80ce-422a-91db-1b1299fc2e90" type="Alias">
       <Property propertyName="value for Simple alias api-esb-service-id" propertyValue="PO01"/>
     </Component>
-	<Component name="Alias.065edc58-eeb3-41c6-9665-8b194eb1a080" type="Alias">
-      <Property propertyName="value for Simple alias api-esb-channel-id" propertyValue="rahmat"/>
-    </Component>
   </DeploymentSet>
 </Root>
