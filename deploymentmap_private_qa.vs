@@ -17,5 +17,8 @@
     <Component name="Alias.d843d000-80ce-422a-91db-1b1299fc2e90" type="Alias">
       <Property propertyName="value for Simple alias api-esb-service-id" propertyValue="PO01"/>
     </Component>
+	<Component name="Alias.d843d000-80ce-422a-91db-1b1299fc2b81" type="Alias">
+      <Property propertyName="value for Simple alias api-esb-service-id" propertyValue="BO01"/>
+    </Component>
   </DeploymentSet>
 </Root>
